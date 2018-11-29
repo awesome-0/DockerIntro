@@ -22,6 +22,11 @@ app.get("/" ,(req,res) => {
    
 })
 
+app.get("/hello",(req,res) => {
+    res.send("hello page")
+})
+
+
 app.listen(3000,() => {
     console.log("Server up on port 3000")
 })
